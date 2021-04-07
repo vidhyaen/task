@@ -1,0 +1,19 @@
+<div class="container">
+<form>
+    <div class="form-group border">
+        
+            <label for="firstName">First Name</label><br><br>
+            <input id="fname" type="text" [(ngModel)]="Contact.name"><br><br>
+    
+    
+    <label>Email</label><br><br>
+    <input type="email" name="email" value=""><br><br>
+        
+        <label for="comment">Message</label><br><br>
+        <textarea id="comment" cols="30" rows="10" [(ngModel)]="Contact.comment"> </textarea></div>
+    <button class="btn btn-dark" (click)="submit()">submit</button>
+        </form>
+    
+</div>
+    
+ 
